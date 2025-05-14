@@ -1,0 +1,107 @@
+.courses {
+  padding-bottom: 60px;
+}
+/* Courses Title */
+.courses-title small {
+  color: #444444a4;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.courses-title small::after {
+  content: "";
+  width: 10%;
+  height: 1px;
+  background-color: #5fcf80;
+}
+
+.courses-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.courses-title h1 {
+  margin-bottom: 50px;
+  color: #444444;
+}
+
+
+/* Courses Item */
+.course-item {
+  border-radius: 10px;
+  border: 1px solid #44444434;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.course-content {
+  padding: 20px;
+}
+
+/* course top */
+.c-content .c-btn {
+  background-color: #5fcf80;
+  padding: 8px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.c-price {
+  padding: 8px 15px;
+  border-radius: 15px;
+  color: #444444;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+/* course description */
+.c-h3-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #444444;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.c-h3-title:hover {
+  color: #5fcf80;
+}
+
+.c-p-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+}
+
+
+/* course trainer bottom*/
+.trainer{
+    border-top: 1px solid #444444a8;
+    padding-top: 20px;
+}
+.img-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* course trainer rank icon */
+.bi-person, .bi-heart{
+    font-size: 18px;
+    color: #4444448a;
+    padding: 0 5px;
+}
+
+.bi-person span, .bi-heart span{
+    font-size: 18px;
+    color: #4444448a;
+    font-style: normal;
+    margin-left: 5px;
+}
