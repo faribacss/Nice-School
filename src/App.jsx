@@ -3,6 +3,7 @@ import Body from "./components/Body/Body";
 import About from "./components/About/About";
 import Features from "./components/features/Features";
 import Courses from "./components/Courses/Courses";
+import Teachers from "./components/Teachers/Teachers";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Features />
       <Courses />
+      <Teachers />
     </>
   );
 }

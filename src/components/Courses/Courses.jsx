@@ -81,6 +81,7 @@ function Courses() {
         </div>
       </div>
     </section>
+    // End Courses
   );
 }
 

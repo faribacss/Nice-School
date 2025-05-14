@@ -68,6 +68,7 @@ function About() {
           </div>
         </div>
       </section>
+      // End About
     );
 }
 

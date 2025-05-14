@@ -66,6 +66,7 @@ function Header() {
         </motion.div>
       </div>
     </section>
+    // End Header
   );
 }
 
