@@ -9,69 +9,10 @@
   width: 100%;
   position: relative;
 }
-.nav-bar {
-  background-color: #ffffff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
-.nav-bar .mentor-brand {
-  font-size: 34px;
-  font-weight: 700;
-  color: #5fcf80;
-}
-
-.nav-bar .menu-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto;
-  gap: 20px;
-}
-
-.menu-list .menu-item {
-  font-size: 16px;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu-list .menu-item:hover {
-  color: #5fcf80;
-}
-
-.nav-bar .open-list {
-  background-color: #5fcf80;
-  border: none;
-}
-
-@media screen and (max-width: 992px) {
-  .nav-bar .menu-list{
-    flex-direction: row;
-    padding: 20px 0;
-  }
-}
-
-.nav-bar .get-started-btn {
-  background-color: #5fcf80;
-  border: 1px solid #5fcf80;
-  border-radius: 20px;
-  padding: 10px 30px;
-  margin-right: 20px;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-bar .get-started-btn:hover {
-  background-color: #1f4229;
-  border: 1px solid #1f4229;
-}
-
 
 /* Hero Body */
 .hero-body {
-  margin: 250px;
+  padding: 250px;
 }
 
 .hero-body h1 {
@@ -100,15 +41,12 @@
   color: #000;
 }
 
-
 @media screen and (max-width: 992px) {
   .nav-bar .get-started-btn {
     font-size: 14px;
-    margin-left: 30px;
   }
-
   .hero-body {
-    margin: 150px 100px;
+    padding: 200px 100px;
   }
 
   .hero-body h1 {
@@ -117,12 +55,5 @@
 
   .hero-body p {
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-    .nav-bar .get-started-btn {
-    font-size: 14px;
-    padding: 5px 10px;
   }
 }
