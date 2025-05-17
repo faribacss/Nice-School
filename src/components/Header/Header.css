@@ -44,7 +44,7 @@
 
 
 /* Media Queries */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .nav-bar .get-started-btn {
     font-size: 14px;
   }
@@ -54,6 +54,7 @@
 
   .hero-body h1 {
     font-size: 30px;
+    margin-top: 150px;
   }
 
   .hero-body p {
