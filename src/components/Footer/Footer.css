@@ -87,21 +87,35 @@ footer {
     outline: none;
     padding: 8px;
     border-radius: 20px;
-    width: 80%;
+    width: 70%;
 }
 .news-letter form button{
     position: absolute;
     right: 35px;
     top: 0;
+    font-size: 14px;
     color: #ffffffe5;
     background-color: #66b347;
     border: none;
     outline: none;
-    padding: 9px;
+    padding: 10px 15px;
     border-radius: 20px;
-    width: 20%;
+    width: 30%;
     transition: all 0.3s ease-in;
 }
 .news-letter form button:hover{
     background-color: #66b347e0;
+}
+
+/* footer bottom */
+.footer-bottom{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 24px 12px;
+    font-size: 14px;
+    background-color: #e6e4e4;
+    color: #444444;
+}
+.footer-bottom a{
+    color: #66b347;
 }

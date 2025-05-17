@@ -11,27 +11,27 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 .teacher-info h4 {
-  font-weight: 700;
+  font-weight: 500;
   padding-top: 10px;
   margin-bottom: 0;
-  font-size: 28px;
+  font-size: 20px;
   color: #303030;
 }
 .teacher-info span {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
   font-weight: 500;
   color: #303030b2;
 }
 .teacher-info p {
-  font-size: 15px;
-  color: #303030b2;
+  font-size: 14px;
+  color: #3030309a;
   margin-top: 20px;
 }
 .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #303030b2;
+  color: #30303077;
   line-height: 0;
-  margin-right: 10px;
+  margin-right: 15px;
 }

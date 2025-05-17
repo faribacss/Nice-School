@@ -98,10 +98,17 @@ function Footer() {
               />
               <button type="submit">Subscribe</button>
             </form>
-            <div className="container footer-bottom"></div>
           </div>
         </div>
       </div>
+            <div className="container footer-bottom">
+                <div className="copyright">
+                    &copy; Copyright <strong>Mentor</strong>. All Rights Reserved
+                </div>
+                <div className="credits">
+                    Designed by <a href="#">BootstrapMade</a>
+                </div>
+            </div>
     </footer>
     // End Footer
   );

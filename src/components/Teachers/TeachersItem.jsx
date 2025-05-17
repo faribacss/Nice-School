@@ -26,7 +26,7 @@ function TeachersItem({
           </div>
           <div className="social-links">
             <a href={teacherSocialLinks.twitter} className="twitter">
-              <i class="bi bi-twitter"></i>
+              <i class="bi bi-twitter-x"></i>
             </a>
             <a href={teacherSocialLinks.facebook} className="facebook">
               <i class="bi bi-facebook"></i>
