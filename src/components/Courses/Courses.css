@@ -105,3 +105,22 @@
     font-style: normal;
     margin-left: 5px;
 }
+
+
+
+/* Media Queries */
+@media screen and (max-width: 568px) {
+  .courses{
+    padding: 0 30px;
+  }
+    .courses-title h1 {
+        font-size: 25px;
+    }
+    .courses-title small {
+        font-size: 12px;
+    }
+    .c-h3-title {
+        font-size: 20px;
+    }
+    
+}

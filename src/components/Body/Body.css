@@ -69,32 +69,7 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 768px){
-    .title-body {
-        font-size: 24px;
-    }
-    .text-body {
-        font-size: 14px;
-    }
-    .img-right {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-     .title-body {
-        font-size: 24px;
-    }
-    .text-body {
-        font-size: 14px;
-    }
-    .img-right {
-        width: 100%;
-    }
-}
-
 /* Count */
-
 .state-item {
   display: flex;
   flex-direction: column;
@@ -117,4 +92,65 @@
   font-size: 18px;
   font-weight: 400;
   color: #444444b4;
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+     .title-body {
+        font-size: 24px;
+    }
+    .text-body {
+        font-size: 14px;
+    }
+    .img-right {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .title-body {
+        font-size: 24px;
+    }
+    .text-body {
+        font-size: 14px;
+    }
+    .img-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .title-body {
+        font-size: 18px;
+    }
+    .text-body {
+        font-size: 12px;
+    }
+    .list-body li {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .list-body li i {
+        font-size: 16px;
+    }
+    .btn-body {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+    .section-body , .count {
+        padding: 0 30px;
+    }
+    .state-item {
+        padding: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .state-item span{
+        font-size: 40px;
+    }
+    .state-item p{
+        font-size: 14px;
+    }
 }

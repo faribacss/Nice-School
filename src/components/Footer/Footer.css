@@ -119,3 +119,12 @@ footer {
 .footer-bottom a{
     color: #66b347;
 }
+
+
+
+/* Media Queries */
+@media screen and (max-width: 568px) {
+  footer{
+    padding: 50px 30px 10px;
+  }
+}
